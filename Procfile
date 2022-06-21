@@ -1,1 +1,1 @@
-web: java -jar target/tallerClaseARSWDespliegueSpring.jar
+web: java -Dserver.port = $PORT $JAVA_OPTS -jar target/tallerClaseARSWDespliegueSpring.jar
